@@ -25,7 +25,7 @@ class RuleBot:
     def greet(self):
         self.name = input("what is your name ?\n")
         will_help = input(
-            f"Hi {self.name}, I am bot.will you help me learn about your planet?\n")
+            f"Hi {self.name}, I am AI bot.will you help me learn about your planet?\n")
         if will_help in self.negative_res:
             print("have nice earth day!")
             return 
